@@ -11,7 +11,7 @@ export class Grid extends SampleBase {
     editparams = { params: { popupHeight: '300px' } };
     validationRules = { required: true };
     orderidRules = { required: false, number: true };
-    pageSettings = { pageCount: 5, pageSize: 20};
+    pageSettings = { pageCount: 5, pageSize: 19};
     filterSettings = { type: 'Menu' };
     render() {
         return (
